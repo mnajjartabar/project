@@ -27,8 +27,8 @@ The exponential filter model equation:
 <br/>
  
 
-The initial SWI (t=1) will be estimated using soil moisture observations from a Mesonet station (0-5cm depth) divided by the maximum amount of water that the layer can hold.
-Daily soil moisture observations at 5 cm depth from Kansas Mesonet will be use as a main input of the model (SWCSURF(t)). On the other hand, daily soil moisture observations at 10, 20, and 50 cm depth will be used to calibrate and validate the model.
+The initial SWI (t=1) will be estimated using soil moisture observations from a Mesonet station (0-5 cm depth) divided by the maximum amount of water that the layer can hold.
+Daily soil moisture observations at 5 cm depth from Kansas Mesonet will be use as a main input of the model (SWCSURF(t)). On the other hand, daily soil moisture observations at 10, 20, and 50 cm depth will be used to calibrate and validate the model predictions.
 
 
 ## Sketch
