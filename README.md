@@ -33,7 +33,7 @@ Daily soil moisture observations at 5 cm depth from Kansas Mesonet will be use a
 
 ## Sketch
  
-<img src="Soil_2.JPG" alt="sketch_image" width="500"/>
+<img src="sketch.JPG" alt="sketch_image" width="500"/>
 
 Figure 1. Sketch summary the workflow proposed for this project.
 
