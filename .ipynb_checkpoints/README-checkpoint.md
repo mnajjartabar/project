@@ -7,7 +7,7 @@
 ## Objective
 Implement in python an exponential filter equation to estimate daily soil water content (SWC) of the entire root-zone from daily surface observations.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=$$SWI_{2(t)}&space;=&space;SWI_{2(t-1)}&space;&plus;&space;K_t&space;[\text{vwc}_{(t)}&space;-&space;SWI_{2(t-1)}]$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$SWI_{2(t)}&space;=&space;SWI_{2(t-1)}&space;&plus;&space;K_t&space;[\text{vwc}_{(t)}&space;-&space;SWI_{2(t-1)}]$$" title="$$SWI_{2(t)} = SWI_{2(t-1)} + K_t [\text{vwc}_{(t)} - SWI_{2(t-1)}]$$" /></a>
+![equation](https://latex.codecogs.com/gif.latex?$$SWI_{2(t)}&space;=&space;SWI_{2(t-1)}&space;&plus;&space;K_t&space;[\text{vwc}_{(t)}&space;-&space;SWI_{2(t-1)}]$$)  
 
 
 ## Motivation and Methodology
