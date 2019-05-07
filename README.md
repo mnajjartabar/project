@@ -59,7 +59,6 @@ The model was tested in eight stations during 2018 between April to November bec
 Mesonet stations across the state were selected taking into consideracion variability of soils types, soil texture, average anual precipitation and land use (rainfed crops, irrigated crops, natural granssland)  
 
 - Cherokee_2018_to_2019 
-<img src="ksmap.JPG" alt="sketch_image" width="500" align="right"/> 
 - Colby_2018_to_2019
 - GardenCity_2018_to_2019       
 - Gypsum_2018_to_2019  
@@ -67,6 +66,7 @@ Mesonet stations across the state were selected taking into consideracion variab
 - Hodgeman_2018_to_2019
 - LakeCity_2018_to_2019
 - Lane_2018_to_2019
+<img src="ksmap.JPG" alt="sketch_image" width="500" align="right"/> 
 <br/>
 <br/>
 <br/>
