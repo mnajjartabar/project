@@ -7,16 +7,18 @@
 ## Objective
 Implement in python an exponential filter equation to estimate daily soil water content (SWC) of the entire root-zone from daily surface observations.
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=$$SWI_{2(t)}&space;=&space;SWI_{2(t-1)}&space;&plus;&space;K_t&space;[\text{vwc}_{(t)}&space;-&space;SWI_{2(t-1)}]$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$SWI_{2(t)}&space;=&space;SWI_{2(t-1)}&space;&plus;&space;K_t&space;[\text{vwc}_{(t)}&space;-&space;SWI_{2(t-1)}]$$" title="$$SWI_{2(t)} = SWI_{2(t-1)} + K_t [\text{vwc}_{(t)} - SWI_{2(t-1)}]$$" /></a>
+
 
 ## Motivation and Methodology
 
 Water stress is considered one of the main limiting factors in summer crop yield. Monitoring SWC of the entire root- zone during the crop seasson is a key factor to improve management irrigation practices and reduce the yield gaps. Solutions like multy depth soil moisture sensors within a field are laborious and expensive for farmers to implemmet.
 
-The exponential filter equation is a known analytical method, that is widely used to predict a SWC of the root-zone from time series surface soil moisture observations. Briefly, the soil profile is divided in two layers: surface and sub-surface, and the equation is used to predict the sub-surface soil moisture from observed measurements at the surface layer (Wagner et al., 1999).  
+The exponential filter equation is a known analytical method, that is widely used to predict a SWC of the root-zone from time series surface soil moisture observations. Briefly, the soil profile is divided in two layers: surface (first) and sub-surface (second), and the equation is used to predict the sub-surface soil moisture from observed measurements at the surface layer (Wagner et al., 1999).  
 
 Albergel et. al., (2008) presented a recursive equation to simplify the calculations:
 
-   $SWI_{2(t)} = SWI_{2(t-1)} + K_t [\text{vwc}_{(t)} - SWI_{2(t-1)}]$
+$$SWI_{2(t)} = SWI_{2(t-1)} + K_t [\text{vwc}_{(t)} - SWI_{2(t-1)}]$$
   
 Where $SWI_2$ represents the soil water index of the second layer, $\text vwc$ represents the measured soil moisture at the surface layer, $K$ is the gain of the exponential filter that gets values between 0 and 1, and $t$ is the day of measurement. $SWI_2$ is a scaled soil moisture content and ranges between 0 to 1 based on the minimum and maximum values of each time series.  
 
@@ -25,7 +27,7 @@ In order to get the estimated soil water content at the second layer $SWC_{2(t)}
 
 \(SWC_{2(t)} = SWI_{2(t)}(W_{2 max} - W_{2 min}) + W_{2 min}\)
 
-Finaly, to predict the entire soli.....The prediction of $profileSWC_{(t)}$ will be obteined by coupling the observed soil moisture at surface $\text vwc_{(t)}$ and the re-scaled $SWC_{2(t)}$ as:
+Finaly, to predict the entire root-zone SWC ($profileSWC_{(t)}$) will be obteined by coupling the observed soil moisture at surface $\text vwc_{(t)}$ and the re-scaled $SWC_{2(t)}$ as:
 
 
 \begin{equation}
