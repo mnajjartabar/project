@@ -68,7 +68,12 @@ Eight Mesonet stations across the state were selected taking into consideracion 
 - Hodgeman_2018_to_2019
 - LakeCity_2018_to_2019
 - Lane_2018_to_2019
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 Figure 2. Map of the state of Kansas showing the location and distribution of the Mesonet stations (orange dots) selected for this study. 
 
 
