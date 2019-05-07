@@ -17,14 +17,14 @@ The exponential filter equation is a known analytical method, that is widely use
 Albergel et. al., (2008) presented a recursive equation to simplify the calculations:
 
 
-  $$SWI_{2(t)} = SWI_{2(t-1)} + K_t [\text{vwc}_{(t)} - SWI_{2(t-1)}]$$
+$$SWI_{2(t)} = SWI_{2(t-1)} + K_t [\text{vwc}_{(t)} - SWI_{2(t-1)}]$$
   
 Where $SWI_2$ represent the soil water index of the second layer, $\text vwc_{(t)}$ represents the measured soil moisture at the surface layer, $K$ is the gain of the exponential filter that gets values between 0 and 1, and $t$ is the day of measurement. $SWI_2$ is a scaled soil moisture content and ranges between 0 to 1 based on the minimum and maximum values of each time series.  
 
 In order to get the estimated soil water content at the second layer $SWC_{2(t)}$ is necessary to re-scale the $SWI_2$ by using the maximum $W_{2 max}$ and minimum $W_{2 min}$ soil moisture from the second layer as follows:
 
 
-  $$SWC_{2(t)} = SWI_{2(t)}(W_{2 max} - W_{2 min}) + W_{2 min}$$
+$$SWC_{2(t)} = SWI_{2(t)}(W_{2 max} - W_{2 min}) + W_{2 min}$$
 
 The prediction of $profileSWC_{(t)}$ will be obteined by coupling the observed soil moisture at surface $\text vwc_{(t)}$ and the re-scaled $SWC_{2(t)}$ as:
 
@@ -59,6 +59,7 @@ The model was tested in eight stations during 2018 between April to November bec
 Mesonet stations across the state were selected taking into consideracion variability of soils types, soil texture, average anual precipitation and land use (rainfed crops, irrigated crops, natural granssland)  
 
 - Cherokee_2018_to_2019 
+<img src="ksmap.jpg" alt="sketch_image" width="500" align="right"/>
 - Colby_2018_to_2019
 - GardenCity_2018_to_2019       
 - Gypsum_2018_to_2019  
@@ -66,8 +67,6 @@ Mesonet stations across the state were selected taking into consideracion variab
 - Hodgeman_2018_to_2019
 - LakeCity_2018_to_2019
 - Lane_2018_to_2019
-
-<img src="ksmap.jpg" alt="sketch_image" width="500" align="right"/> 
 <br/>
 <br/>
 <br/>
@@ -82,7 +81,8 @@ Soil water content for the entire root-zone (0 to 50 cm) was predicted successfu
 
 <br/>
 
-<img src="results1.JPG" alt="sketch_image" width="500" aling="left"/> <img src="results3.JPG" alt="sketch_image" width="500" aling="right"/> 
+<img src="results3.JPG" alt="sketch_image" width="600" aling="middle"/> 
+<img src="results1.JPG" alt="sketch_image" width="615" aling="middle"/> 
 
 Figure 3: Observed and predicted SWC in milimeters across time at Hays Mesonet station. 
 
