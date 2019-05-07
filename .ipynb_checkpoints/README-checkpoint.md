@@ -28,7 +28,9 @@ In order to get the estimated soil water content at the second layer $SWC_{2(t)}
 Finaly, to predict the entire soli.....The prediction of $profileSWC_{(t)}$ will be obteined by coupling the observed soil moisture at surface $\text vwc_{(t)}$ and the re-scaled $SWC_{2(t)}$ as:
 
 
-\begin{equation}profileSWC_{(t)} = SWC_{2(t)} * L2 + \text vwc_{(t)} * L1 \end{equation}
+\begin{equation}
+profileSWC_{(t)} = SWC_{2(t)} * L2 + \text vwc_{(t)} * L1 
+\end{equation}
 
 where L1 and L2 are the thick of first and second soil layer in milimeters.
 
