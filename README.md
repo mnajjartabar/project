@@ -72,9 +72,6 @@ Eight Mesonet stations across the state were selected taking into consideracion 
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
 Figure 2. Map of the state of Kansas showing the location and distribution of the Mesonet stations (orange dots) selected for this study. 
 
 
@@ -87,15 +84,13 @@ Soil water content for the entire root-zone (0 to 50 cm) was predicted successfu
 <img src="results3.JPG" alt="sketch_image" width="600" aling="middle"/> 
 <img src="results1.JPG" alt="sketch_image" width="615" aling="middle"/> 
 
-Figure 3: Observed and predicted $SWC$ in milimeters across time at Hays Mesonet station. 
+Figure 3: Observed and predicted *SWC* in milimeters across time at Lake City and Hays Mesonet stations. 
 
+Overall the predictions behaved appropriately in general terms matching the soil wetting and drying periods without any problems. Initial estimation of profile SWC consistently shows poor concordance with observed data after five days the model is corrected and start showing a decent concordance.
 
+The goodness of the agreement between observed and predicted *profile_SWC* was tested using RMSE and MSE as is showing in Table 1.
 
-comentarios varios......
-
-
-
-Table 1:
+Table 1: RMSE and MSE for each tested station. Also is presented maximum, minimum and average SWC for the study period.
 
 |Station  |RMSE|MSE  |SWC_ave|SWC_min|SWC_max|
 |:------- |:--:|:---:|:-----:|:-----:|:-----:|
@@ -108,20 +103,20 @@ Table 1:
 |Garden City|15.99|13.25|100|71|157|
 |Gypsum  |23.98|20.6|142|104|194|
 
+Overall, RMSE and MAE oscillated between 6.6 to 20.6 mm showing a stable range of errors for the different condition. The average of SWC as well as the maximum and minimum presented an important variation that is not having an impact in the profile SWC predictions. In terms of error of the model the averge error is estimated in 10% that is aceptable taking into cosideration the number of parameters that is used to run the model.
 
 
+### Conclusions
 
+- The model succesfully estimated the profile soil water content for differents scenarios (soil, weather) across Kansas for most of the Mesonet stations.
+- Overall, RMSE and MAE oscillated between 8.9 to 20.6 mm and 6.6 to 18.4 mm respectively, meaning an error between 6 to 12% in the entire soil profile. 
+- The model was able to capture the response for different rates of rainfall event during the season.
+-  For the stations were the model did not predict well, modifications in sub_surf_max parameter were done in order to achieve similar predictions to the other stations (data not showed)
 
+### Reproducible research
 
-
-
-
-
-
-
-
-
-
+- The data used in this study is available to download in https://github.com/prossini1/project
+- Appendix Supplementary material for reproducible analysis
 
 ## References
 Albergel, C., Rudiger, C., Pellarin, T., Calvet, J.-C., Fritz, N., Frois-sard, F., Suquia, D., Petitpa, A., Piguet, B., and Martin, E.(2008) From near-surface to root-zone soil moisture using an exponential filter: an assessment of the method based on in-situ observations and model simulations, Hydrol. Earth Syst. Sci., 12, 1323–1337,
