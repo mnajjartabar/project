@@ -107,10 +107,10 @@ Table 1 - Root mean squared error (RMSE) and mean absolute error (MAE)  for the 
 
 ### Conclusions
 
-- The model successfully estimated the profile soil water content for different scenarios (soil, weather - Supplementary figure 1) across Kansas for all the Mesonet stations selected. Further improvement could be done using a more representative number of stations.
+- The model successfully estimated the profile soil water content for different scenarios across Kansas for all the Mesonet stations selected. Further improvement could be done using a more representative number of stations.
 - The model was able to capture the response for different rainfall events during the season (Supplementary figure 1).
-- Overall, RMSE and MAE oscillated between reasonable values, explaining an error between 6 to 12% in the entire soil profile. Better estimates with lower errors could be obtained by adding other relevant parameters to the prediction model, such as soil texture.
--  In addition to the eight Mesonet stations presented in this study, the model was used to predict other stations (data not presented). However, the model was not able to accuratelly predict SWC in all the cases. A simple modification in the sub_surf_max parameter was done in order to achieve similar predictions to the other stations (data not showed).
+- Overall, RMSE and MAE oscillated between reasonable values, explaining an error between 6 to 12% in the entire soil profile.
+- In addition to the eight Mesonet stations presented in this study, the model was used to predict other stations (data not presented). However, the model was not able to accuratelly predict SWC in all the cases. A simple modification in the sub_surf_max, sub_surf_min parameter was done in order to achieve similar predictions to the other stations (data not showed).
 
 ### Reproducible research
 
