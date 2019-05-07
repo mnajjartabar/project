@@ -59,8 +59,8 @@ The model was tested in eight stations during 2018 between April to November bec
 
 Eight Mesonet stations across the state were selected taking into consideracion variability of soils types, soil texture, average anual precipitation and land use (rainfed crops, irrigated crops, natural granssland)  
 
-- Cherokee_2018_to_2019 
 <img src="ksmap.jpg" alt="sketch_image" width="500" align="right"/>
+- Cherokee_2018_to_2019 
 - Colby_2018_to_2019
 - GardenCity_2018_to_2019       
 - Gypsum_2018_to_2019  
@@ -68,7 +68,12 @@ Eight Mesonet stations across the state were selected taking into consideracion 
 - Hodgeman_2018_to_2019
 - LakeCity_2018_to_2019
 - Lane_2018_to_2019
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 Figure 2. Map of the state of Kansas showing the location and distribution of the Mesonet stations (orange dots) selected for this study. 
 
 
