@@ -66,7 +66,8 @@ Mesonet stations across the state were selected taking into consideracion variab
 - Hodgeman_2018_to_2019
 - LakeCity_2018_to_2019
 - Lane_2018_to_2019
-<img src="ksmap.JPG" alt="sketch_image" width="500" align="right"/> 
+
+<img src="ksmap.jpg" alt="sketch_image" width="500" align="right"/> 
 <br/>
 <br/>
 <br/>
